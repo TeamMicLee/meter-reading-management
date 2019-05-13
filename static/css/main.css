@@ -92,3 +92,33 @@
     width: 30%;
     text-align: center;
 }
+.content-list-detail {
+    margin-bottom: 0;
+    overflow: auto;
+    height: calc(100vh - 185px);
+}
+.container .g-scrollview:after {
+    height: 0;
+}
+.cell-item >.cp {
+    background: url('../images/icon/cp.png') no-repeat left center;
+}
+.cell-item >.un-cp {
+    background: url('../images/icon/un-cp.png') no-repeat left center;
+}
+.detail-cell-input {
+    text-align: right;
+}
+.save-area {
+    padding: 0 30px;
+}
+.navbar-right {
+    padding: 0 20px;
+    order: 3;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    width: 25%;
+    text-align: right;
+    color: #3ed6ea;
+    font-size: 14px;
+}
