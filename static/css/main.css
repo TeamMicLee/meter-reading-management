@@ -142,6 +142,33 @@
     margin: 0 auto;
     float: none;
 }
-/* .uploader-area {
-    height: 160px;
-} */
+
+.history-tab .tab-panel .tab-panel-item {
+    padding: 0;
+}
+.history-table-header .m-grids-5 {
+    background-color: #F5F5F5;
+}
+.history-tab .m-grids-5 .grids-item:not(:nth-child(5n)):before {
+    border-right: 0;
+}
+.history-tab .grids-item:after {
+    border-bottom: 0;
+}
+.history-tab .grids-item {
+    padding: .22rem 0;
+}
+.history-table-header .grids-txt {
+    padding: 0;
+    color: #666;
+    font-size: 12px;
+}
+.history-table-body .grids-txt {
+    padding: 0;
+    color: #333;
+    font-size: 12px;
+}
+.history-table-body {
+    height: calc(100vh - 126px);
+    overflow: auto;
+}
