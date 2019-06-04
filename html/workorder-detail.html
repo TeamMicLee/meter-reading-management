@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>工单服务</title>
+    <link rel="stylesheet" href="../static/common/ydui-0.1.3/build/css/ydui.css">
+    <link rel="stylesheet" href="../static/css/workorder.css">
+    <script src="../static/common/ydui-0.1.3/build/js/ydui.flexible.js"></script>
+    <style>
+        .atar_Show {
+            background: url(../static/common/jquery-rate/images/stark2.png);
+            width: 160px;
+            height: 21px;
+            position: relative;
+            margin: 0 auto;
+        }
+        .atar_Show p {
+            background: url(../static/common/jquery-rate/images/stars2.png);
+            left: 0;
+            height: 21px;
+            width: 134px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="g-flexview">
+            <header class="m-navbar">
+                <a href="workorder.html" class="navbar-item"><i class="back-ico"></i></a>
+                <div class="navbar-center">
+                    <span class="navbar-title">工单详情</span>
+                </div>
+            </header>
+            <section class="g-scrollview">
+                <div id="J_Tab" class="m-tab workorder-detail-tab">
+                    <ul class="tab-nav">
+                        <li class="tab-nav-item tab-active"><a href="javascript:;">工单</a></li>
+                        <li class="tab-nav-item"><a href="javascript:;">进度</a></li>
+                        <li class="tab-nav-item"><a href="javascript:;">满意度</a></li>
+                    </ul>
+                    <div class="tab-panel">
+                        <div class="tab-panel-item tab-active">
+                            <div class="workorder-info">
+                                <div class="workorder-info-item">
+                                    <div class="m-celltitle">工单信息</div>
+                                    <div class="m-cell">
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">标题</div>
+                                            <div class="cell-right">房间灯坏了</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">类型</div>
+                                            <div class="cell-right">报事/报修</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">详情</div>
+                                            <div class="cell-right">房间灯坏了</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">计划完成时间</div>
+                                            <div class="cell-right">2019-4-24 20：00</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">房间</div>
+                                            <div class="cell-right">紫金尚园5-701（表号）</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">联系人</div>
+                                            <div class="cell-right">姬磊</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">电话</div>
+                                            <div class="cell-right">188888888888</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">图片</div>
+                                            <div class="cell-right"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="workorder-info-item">
+                                    <div class="m-celltitle">工单信息</div>
+                                    <div class="m-cell">
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">状态</div>
+                                            <div class="cell-right"></div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">负责人</div>
+                                            <div class="cell-right">张振</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">电话</div>
+                                            <div class="cell-right">13777777777</div>
+                                        </a>
+                                        <a href="javascript:;" class="cell-item">
+                                            <div class="cell-left">分配人</div>
+                                            <div class="cell-right">唐敏</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-panel-item">
+                            <div class="schedule-area">
+                                <div class="schedule-status">
+                                    <div>进度信息</div>
+                                    <div class="center">
+                                        <span class="status-text">
+                                            <i class="icon daifenpei active"></i>
+                                        </span>
+                                        <span class="status-arrow">
+                                            <i class="icon arrow active"></i>
+                                        </span>
+                                        <span class="status-text">
+                                            <i class="icon daichuli active"></i>
+                                        </span>
+                                        <span class="status-arrow">
+                                            <i class="icon arrow"></i>
+                                        </span>
+                                        <span class="status-text">
+                                            <i class="icon chulizhong"></i>
+                                        </span>
+                                        <span class="status-arrow">
+                                            <i class="icon arrow"></i>
+                                        </span>
+                                        <span class="status-text">
+                                            <i class="icon yiwancheng"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="schedule-detail">
+                                    <div>
+                                        【张振】跟进了进度
+                                        <div>2019-4-23 13:38</div>
+                                    </div>
+                                    <div>
+                                        【唐敏】分配了工单
+                                        <div>2019-4-23 13:38</div>
+                                    </div>
+                                    <div>
+                                        【姬磊】创建了报事/报修
+                                        <div>2019-4-23 13:38</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-area">
+                                <button type="button" class="btn-block btn-primary" onclick="addRec()">添加记录</button>
+                            </div>
+                        </div>
+                        <div class="tab-panel-item">
+                            <div class="satisfaction-area">
+                                <div class="rate-area clearfix">
+                                    <div class="atar_Show">
+                                        <p tip="2.5"></p>
+                                    </div>
+                                </div>
+                                <div class="problem-area">
+                                    <ul>
+                                        <li>服务态度差</li>
+                                        <li>回答不及时</li>
+                                        <li>没解决问题</li>
+                                        <li>不礼貌</li>
+                                        <li>说脏话</li>
+                                        <li>其他</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+    </div>
+    <script src="../static/common/jquery/2.1.4/jquery.min.js"></script>
+    <script src="../static/common/ydui-0.1.3/build/js/ydui.js"></script>
+    <script src="../static/common/jquery-rate/js/starScore.js"></script>
+    <script>
+
+        function addRec() {
+            window.location.href = './follow-record.html';
+        }
+
+        // 展示评分
+        $('.rate-area p').each(function(index, element) {
+            var num=$(this).attr("tip");
+            var www=num*2*16;
+            $(this).css("width",www);
+        });
+
+        /**
+         * Javascript API调用Tab
+         */
+        !function ($) {
+            var $tab = $('#J_Tab');
+
+            $tab.tab({
+                nav: '.tab-nav-item',
+                panel: '.tab-panel-item',
+                activeClass: 'tab-active'
+            });
+
+            /*
+            $tab.find('.tab-nav-item').on('open.ydui.tab', function (e) {
+                console.log('索引：%s - [%s]正在打开', e.index, $(this).text());
+            });
+            */
+
+            $tab.find('.tab-nav-item').on('opened.ydui.tab', function (e) {
+                console.log('索引：%s - [%s]已经打开了', e.index, $(this).text());
+            });
+        }(jQuery);
+    </script>
+</body>
+</html>

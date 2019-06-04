@@ -1,0 +1,341 @@
+.work-order-content .m-cell {
+    margin-bottom: 0;
+}
+.work-order-list {
+    /* padding: 0 5px; */
+    background: #fff;
+}
+.list-item {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+}
+.list-item .status {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 3px 5px;
+    background: #4cd864;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.list-item-footer {
+    display: flex
+}
+.list-item-footer >div {
+    flex: 1;
+    color: #999;
+    font-size: 12px;
+}
+.workorder-detail-tab .tab-panel .tab-panel-item {
+    padding: .24rem 0;
+}
+.workorder-info-item .m-celltitle {
+    background: #dfdfdf;
+    color: #333;
+    padding: .1rem .24rem;
+}
+.center {
+    text-align: center;
+}
+.schedule-area {
+    padding: 0 10px;
+}
+.schedule-detail >div {
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.schedule-detail >div >div {
+    color: #999;
+    font-size: 12px;
+    padding-left: 7px;
+}
+.status-text {
+    display: inline-block;
+}
+.schedule-status .center {
+    padding: 20px 0;
+}
+.button-area {
+    padding: 0 20px;
+}
+.follow-record-area textarea {
+    height: 3rem;
+}
+.clearfix::after {
+    display: block;
+    content: '';
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+.problem-area {
+    padding: 20px 0;
+}
+.problem-area >ul {
+    width: 300px;
+    margin: 0 auto;
+}
+.problem-area >ul >li {
+    display: inline-block;
+    width: 126px;
+    border: 1px solid #dfdfdf;
+    margin: 10px 10px;
+    text-align: center;
+    padding: 5px 0;
+}
+.work-order-header {
+    height: 190px;
+    width: 100%;
+    position: relative;
+    background: url(../images/icon/workorder/bg.png) no-repeat;
+    background-size: 100%;
+}
+.filter-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50px;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icon/workorder/filter.png) no-repeat center center;
+    background-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.filter-drawer {
+    position: fixed;
+    display: none;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    padding-top: 10px;
+    height: calc(100vh - 0.9rem);
+    background: #fff;
+    z-index: 99999;
+}
+.filter-drawer p {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    padding: 10px;
+}
+.filter-drawer-item {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: flex-start;
+}
+.filter-drawer-item span {
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    background: #008B8B;
+    margin: 10px 0 0 10px;
+}
+.filter-button-area {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #dfdfdf;
+}
+.filter-button-area >div {
+    width: 50%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    background: #008B8B;
+}
+.filter-button-area >div:first-child {
+    color: #333;
+    background: #fff;
+}
+.filter-drawer-list {
+    margin-bottom: 40px;
+    overflow-y: auto;
+}
+.filter-drawer-body {
+    position: relative;
+    height: 100%;
+}
+.operation-area {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.mask-black {
+    display: none;
+}
+.tabbar-fixed {
+    background: #fff;
+}
+.unfinished-workorder {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+    text-align: center;
+    line-height: 88px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #7283ff;
+}
+.icon-work-order {
+    display: inline-block;
+    width: 32px;
+    height: 44px;
+    background: url(../images/icon/workorder/workorder-grey.png) no-repeat center center;
+    background-size: 24px;
+}
+.tabbar-active .icon-work-order  {
+    background: url(../images/icon/workorder/workorder.png) no-repeat center center;
+    background-size: 24px;
+}
+.icon-work-bench {
+    display: inline-block;
+    width: 32px;
+    height: 44px;
+    background: url(../images/icon/workorder/workbench-grey.png) no-repeat center center;
+    background-size: 34px;
+}
+.tabbar-active .icon-work-bench  {
+    background: url(../images/icon/workorder/workbench.png) no-repeat center center;
+    background-size: 34px;
+}
+.icon-myself-module {
+    display: inline-block;
+    width: 32px;
+    height: 44px;
+    background: url(../images/icon/workorder/my-grey.png) no-repeat center center;
+    background-size: 24px;
+}
+.tabbar-active .icon-myself-module  {
+    background: url(../images/icon/workorder/my.png) no-repeat center center;
+    background-size: 24px;
+}
+.workorder-tabbar .tabbar-txt {
+    visibility: hidden;
+}
+.workorder-tabbar .tabbar-item {
+    height: 44px;
+}
+
+.status-text .icon {
+    display: block;
+    width: 40px;
+    height: 50px;
+    background-size: 40px;
+}
+.status-arrow {
+    display: inline-block;
+}
+.status-arrow .icon {
+    display: block;
+    width: 50px;
+    height: 40px;
+    background-size: 40px;
+}
+.daifenpei {
+    background: url('../images/icon/workorder/daifenpei-g.png') no-repeat center center;
+}
+.daifenpei.active {
+    background: url('../images/icon/workorder/daifenpei.png') no-repeat center center;
+    background-size: 40px;
+}
+.daichuli {
+    background: url('../images/icon/workorder/daichuli-g.png') no-repeat center center;
+}
+.daichuli.active {
+    background: url('../images/icon/workorder/daichuli.png') no-repeat center center;
+    background-size: 40px;
+}
+.chulizhong {
+    background: url('../images/icon/workorder/chulizhong-g.png') no-repeat center center;
+}
+.chulizhong.active {
+    background: url('../images/icon/workorder/chulizhong.png') no-repeat center center;
+    background-size: 40px;
+}
+.yiwancheng {
+    background: url('../images/icon/workorder/yiwancheng-g.png') no-repeat center center;
+}
+.yiwancheng.active {
+    background: url('../images/icon/workorder/yiwancheng.png') no-repeat center center;
+    background-size: 40px;
+}
+.arrow {
+    background: url('../images/icon/workorder/arrow-g.png') no-repeat center center;
+}
+.arrow.active {
+    background: url('../images/icon/workorder/arrow.png') no-repeat center center;
+    background-size: 40px;
+}
+/* 关于我 */
+.workorder-status {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+}
+.workorder-status-item {
+    text-align: center;
+    width: 100px;
+    padding: 10px 0;
+}
+.workorder-status-item >div:first-child {
+    color: #008B8B;
+    font-size: 32px;
+    font-weight: 600;
+}
+.workorder-status-item >div:last-child {
+    font-size: 14px;
+}
+.red {
+    color: red !important;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.workbench-content-item .icon {
+    font-size: 42px;
+}
+.workbench-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.workbench-content-item {
+    text-align: center;
+    padding: 10px;
+}
+.workbench-content-item .icon {
+    font-size: 60px;
+}
+.workbench-content-item >span {
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+}
